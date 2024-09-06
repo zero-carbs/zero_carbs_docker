@@ -1,0 +1,5 @@
+/zero_carbs_client/*
+/zero_carbs_server/*
+/postgresql/*
+.env
+notes.md
