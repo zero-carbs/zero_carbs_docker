@@ -24,18 +24,22 @@ Create a directory for the project
 
 Clone this repo
 
-`git clone <docker-repo>`
+`git clone https://gitlab.com/zero_carbs/zero_carbs_docker`
 
-Clone the frontend
+Run the `init_update.sh` script to clone the client/server repos
 
-`git clone <client-repo>`
+`./init_update.sh`
 
-Clone the backend
-
-`git clone <server-repo>`
+You may need to make the file executable: `chmod +x init_update.sh` and run it again
 
 Rename `.env.example` to `.env` and update the values where needed
 
 Start the app
 
 `docker compose up -d --build`
+
+Open `http://localhost:1977` in the browser and log in to the app with the email/password you created in Clerk.
+
+You should now have the full app running locally on your computer. You can update by running `git pull` in both the client and server repos. 
+
+Just run the `init_update.sh` script again to update/pull the latest changes from the main branch.
