@@ -3,8 +3,8 @@
 ### Requirements:
 - Clerk.com account - free
 - Cloudflare Workers Paid Plan - $5/mo (optional)
-- Docker/Docker Compose
-- Some knowledge of networking (if something goes wrong)
+- Docker/Docker Compose - free
+- Some knowledge of networking (if something goes wrong) - priceless
 
 ---
 
@@ -52,4 +52,4 @@ Run the `init_update.sh` script to update/pull the latest changes from the main 
 
 For those not familiar with self hosting, you should know that the app is running on _your_ computer now. Which is awesome, but it also means that you are responsible for any/all security issues and the handling of access outside your network. ie. If you want to use the app from your phone while you're away from home, you will need to figure out a way to make that happen.
 
-You'll notice the repo urls are from gitlab.com and you may be reading this on github.com. That's because the Github repo is a mirror of the Gitlab repo. They are and always will be the exact same code. When developing, I push to a local Gitlab instance, which mirrors to a public gitlab.com repo, which then mirrors to a public github.com repo. Seems overly complicated I know. I like Gitlab, but more people use Github, so that's just the way it is.
+You'll notice the repo urls are from gitlab.com and you may be reading this on github.com. That's because the Github repo is a mirror of the Gitlab repo. They are and always will be the exact same code. When developing, I push to a local Gitlab instance, which mirrors to a public gitlab.com repo, which then mirrors to a public github.com repo. Seems overly complicated I know. I like Gitlab, but more people use Github, so that's just the way it is. Also note: the organization name on Github is `zero-carbs` and not `zero_carbs` so keep that in mind if you decide to pull from there for whatever reason.
